@@ -1,18 +1,27 @@
-## Getting Started
+# Sistema de Conta Empresarial
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é uma aplicação em Java desenvolvida com o objetivo de praticar e compreender conceitos de **Herança** em Programação Orientada a Objetos (POO). A aplicação simula operações básicas de uma conta empresarial, utilizando a estrutura de classes e métodos para demonstrar o reaproveitamento e a extensão de funcionalidades.
 
-## Folder Structure
+## Objetivos de Aprendizado
 
-The workspace contains two folders by default, where:
+- Compreender e aplicar o conceito de **Herança** em POO.
+- Demonstrar como uma classe derivada pode reutilizar e estender métodos e atributos de uma classe base.
+- Explorar a implementação de métodos específicos na classe derivada (`BusinessAccount`).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Consultar saldo**: Ver o saldo atual da conta.
+- **Realizar empréstimos**: Solicitar um empréstimo respeitando o limite disponível.
+- **Realizar saques**: Retirar dinheiro da conta (se o saldo permitir).
+- **Atualizar limite de empréstimo**: Alterar o limite de crédito da conta.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Estrutura do Projeto
 
-## Dependency Management
+- **Classe Base (`Account`)**: Contém atributos e métodos básicos, como número da conta, titular e saldo.
+- **Classe Derivada (`BusinessAccount`)**: Herda da classe base e adiciona funcionalidades específicas, como limite de empréstimos e taxa de transação.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Tecnologias Utilizadas
+
+- **Java SE**
+- Programação Orientada a Objetos (POO)
+- Scanner para entrada de dados
